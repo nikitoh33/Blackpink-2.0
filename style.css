@@ -228,21 +228,6 @@ footer{
 }
 
 
-
-.Noticias{
-    margin: 20px;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.6;
-    background-color:pink;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);    
-    color: #333;
-
-}
-
 .Canciones-Populares{
     margin: 20px;
     padding: 20px;
@@ -253,6 +238,29 @@ footer{
     background-color: #f9f9f9;
     border-radius: 10px; 
     color: #333;
+}
+
+.canciones{
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.historia-song{
+    margin-top: 50pxpx;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #333;
+    flex: 1 1 50%;
+    padding: 0;
 }
 
 .videos{
@@ -273,6 +281,11 @@ footer{
     margin: 0 auto;
     margin-top: 5px;
     border-radius: 10px;
+    flex: 1 1 50%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
 }
 
 
@@ -376,6 +389,27 @@ footer{
         margin-top: 5px;
         border-radius: 10px;
     }
+
+    .canciones{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .historia-song{
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 1.4;
+    }
+
+    .videos iframe{
+        width: 100%;
+        height: 200px;
+    }
+
+
 }
 
 

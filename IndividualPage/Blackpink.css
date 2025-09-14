@@ -1,0 +1,53 @@
+header{
+background-color: black;
+color: white;
+text-decoration: none;
+padding: 20px 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px 45px;
+    border-color: rgb(215, 63, 89);
+}  
+
+header a:hover{
+    color: pink;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: rgb(215, 63, 89);
+    transition: background-color 1s ease;
+}
+
+
+table {
+border: 5px;
+margin: 0 auto;
+text-align: center; 
+padding: 10px 30px 10px 30px ; 
+}
+
+table td:hover{
+    background-color: rgb(234, 126, 126);
+}
