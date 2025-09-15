@@ -75,8 +75,7 @@ header a:hover{
     font-size: 60px;
     color: black;
     margin: 20px;
-    padding: 10px;
-    animation: cambiarColor 5s infinite, tamLetras 3s linear;
+    animation: cambiarColor 3s infinite, tamLetras 3s linear;
 }
 
 
@@ -103,7 +102,8 @@ header a:hover{
     margin: 0 auto 20px auto;
     max-width: 80%;
     height: auto;
-    border-radius: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
