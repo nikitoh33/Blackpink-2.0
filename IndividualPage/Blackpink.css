@@ -7,12 +7,14 @@
 
 
 header{
-background-color: black;
+background-color: pink;
 color: white;
 text-decoration: none;
-padding: 10px 0;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 20px 0;
+font-family: cursive;
 text-align: center;
+border-radius: 50px;
+
 position: sticky;
 top: 0;
 z-index: 10;
@@ -24,27 +26,44 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin: 10px;
 }
 
 nav ul li a{
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease;
-    border-style: solid;
-    border-radius: 20px;
-    padding: 5px 45px;
+    
+    border-radius: 10px;
+    padding: 10px 25px;
     border-color: rgb(215, 63, 89);
 }  
 
+nav ul li{
+    animation: parpadear 3s infinite;
+}
+
 header a:hover{
-    color: pink;
+    color: white;
     font-size: 20px;
     text-decoration: underline;
     background-color: rgb(215, 63, 89);
     transition: background-color 1s ease;
+}
+
+
+.Integrantesid{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(163, 29, 52);
+    font-weight: bold;
+
+    animation-name: parpadear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -57,13 +76,12 @@ header a:hover{
     color: black;
     margin: 20px;
     padding: 10px;
-    animation: tamLetras 3s ease-in-out;
-
+    animation: cambiarColor 5s infinite, tamLetras 3s linear;
 }
 
 
 #Nombre-integrante:hover{
-    color: pink;
+    color: black;
     transition: color 1s ease;
 }
 
@@ -267,6 +285,15 @@ footer{
     animation-fill-mode:both ;
 }
 
+.titulos{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+
+}
 
 
 @media (max-width: 500px) {
