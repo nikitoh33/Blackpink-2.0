@@ -30,3 +30,18 @@
         scale: 100%;
     }
 }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* se mueve la mitad del track */
+    }
+}
+
+@keyframes tamLetras {
+    to { font-size: 60px; }
+    from { font-size: 1px; }
+    
+}
