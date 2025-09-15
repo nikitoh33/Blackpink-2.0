@@ -404,8 +404,9 @@ footer{
 
     .historia-song{
         margin-top: 20px;
+        margin-left: 1px;
         font-size: 14px;
-        text-align: justify;
+        text-align: center;
         line-height: 1.4;
     }
 
