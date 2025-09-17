@@ -176,7 +176,7 @@ header a:hover{
 
     animation-timeline: --box;
     animation-name: show;
-    animation-range: entry 25% cover 40%;
+    animation-range: entry 15% cover 20%;
     animation-fill-mode:both ;
 
 }
@@ -285,6 +285,15 @@ footer{
     animation-fill-mode:both ;
 }
 
+
+.IntroDisco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
 .titulos{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -292,8 +301,22 @@ footer{
     color: black;
     margin: 20px;
     padding: 10px;
-
+    margin-top: 50px;
 }
+
+.Disco{
+    animation: girar .5s infinite;
+    margin-top: 50px;
+}
+.Disco img{
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+
+
 
 
 @media (max-width: 500px) {
